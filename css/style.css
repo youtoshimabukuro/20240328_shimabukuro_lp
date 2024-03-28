@@ -182,12 +182,12 @@ html,body {
 }
 
 .news-item {
+    font-size: 1.2vw;
     line-height: 200%;
     margin: 5%;
 }
 
 .news-item a{
-    font-size: 1.2vw;
     text-decoration: none;
     color: rgb(112, 112, 112);
 }
