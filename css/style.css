@@ -1,0 +1,639 @@
+html,body {
+    width: 100%;
+    height: 100%;
+}
+
+.nanum-pen script-regular {
+    font-family: "Nanum Pen Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.wrapper {
+    aspect-ratio: 1378/4096;
+}
+
+.header {
+    width: 100%;
+    height: 1.5%;
+}
+
+.firstview {
+    width: 100%;
+    height: 13.5%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.news {
+    width: 100%;
+    height: 14%;
+}
+
+.main {
+    width: 100%;
+    height: 70%;
+}
+
+.about {
+    width: 100%;
+    height: 14.7%;
+}
+
+.service {
+    width: 100%;
+    height: 22%;
+}
+
+.blog {
+    width: 100%;
+    height: 20.3%;
+}
+
+.company {
+    width: 100%;
+    height: 21%;
+}
+
+.article {
+    width: 100%;
+    height: 10%;
+    background-color: antiquewhite;
+}
+
+.contact {
+    width: 100%;
+    height: 12%;
+}
+
+.footer {
+    width: 100%;
+    height: 1%;
+}
+
+.header_inner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    box-sizing: border-box;
+}
+
+.header-logo {
+    width: 13%;
+    height: 100%;
+}
+
+.header-logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.header-nav {
+    width: 30%;
+    height: 100%;
+}
+
+.header-nav-list {
+    display: flex;
+    margin-top: 2%;
+}
+
+.header-nav-list li {
+    font-size: 1.3vw;
+    margin-right: 2%;
+}
+
+.firstview_inner {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+}
+
+.firstview-img {
+    width: 75%;
+    height: 100%;
+    position: absolute;
+}
+
+.firstview-img img {
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.firstview h1{
+    font-size: 5vw;
+    font-family: "Nanum Pen Script", cursive;
+    color: #b31667;
+    left: 0;
+    top: 12%;
+    line-height: 180%;
+    position: absolute;
+    z-index: 5;
+}
+
+.firstview h2 {
+    font-size: 1.59vw;
+    color: #b31667;
+    left: 0;
+    top: 60%;
+    position: absolute;
+    z-index: 5;
+}
+
+.firstview span {
+    color: rgb(5, 152, 176);
+}
+
+.firstview p {
+    font-size: 1.17vw;
+    color: rgb(112, 112, 112);
+    left: 0;
+    top: 66%;
+    position: absolute;
+    z-index: 5;
+}
+
+.news_inner {
+    width: 53%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.news-minittl {
+    font-size: 1vw;
+    font-family: "Nanum Pen Script", cursive;
+    color: #b31667;
+    padding-top: 18%;
+}
+
+.news-ttl {
+    font-size: 1.59vw;
+    margin: 1%;
+    color: rgb(112, 112, 112);
+}
+
+.news-list {
+    list-style: none;
+}
+
+.news-item {
+    line-height: 200%;
+    margin: 5%;
+}
+
+.news-item a{
+    font-size: 1.2vw;
+    text-decoration: none;
+    color: rgb(112, 112, 112);
+}
+
+.news-item span{
+    margin: 0 2%;
+    width:  20%;
+    text-align: center;
+    border-radius: 2vw;
+    background-color: #b31667;
+    color: #fff;
+    display: inline-block;
+}
+
+.about_inner {
+    width: 66%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.about-minittl {
+    font-size: 1vw;
+    font-family: "Nanum Pen Script", cursive;
+    padding-top: 2%;
+    color: #b31667;
+    text-align: center;
+}
+
+.about-ttl {
+    font-size: 1.59vw;
+    text-align: center;
+    color: rgb(112, 112, 112);
+    margin: 1% 0 5% 0;
+}
+
+.about-box {
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+
+.about-text-box {
+    width: 61%;
+    height: 100%;
+    line-height: 180%;
+    font-size: 1vw;
+    color: rgb(112, 112, 112);
+}
+
+.about-img {
+    width: 39%;
+    height: 100%;
+}
+
+.about-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.about-text-top {
+    margin-bottom: 3%;
+}
+
+.service_inner {
+    width: 66%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.service-minittl {
+    font-family: "Nanum Pen Script", cursive;
+    font-size: 1vw;
+    padding-top: 8%;
+    color: #b31667;
+}
+
+.service-ttl {
+    font-size: 1.59vw;
+    margin-top: 1%;
+    color: rgb(112, 112, 112);
+}
+
+.service-box {
+    width: 100%;
+    height: 60%;
+    margin-top: 3%;
+    background-color: antiquewhite;
+    display: flex;
+}
+
+.service-box-item-left  {
+    width: 50%;
+    height: 100%;
+    background-color: #b31667;
+}
+
+.service-item-left-img {
+    width: 31%;
+    height: 34%;
+    margin: 7% auto;
+}
+
+.service-box-item-left-ttl {
+    color: #fff;
+    text-align: center;
+    font-size: 1.2vw;
+}
+
+.service-item-left-text {
+    width: 84%;
+    height: 20%;
+    margin: 2% auto;
+    color: #fff;
+}
+
+.service-item-left-text p {
+    display: block;
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    font-size: 1vw;
+    line-height: 180%;
+}
+
+.service-box-item-right {
+    width: 50%;
+    height: 100%;
+}
+
+.service-box-item-right-top {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    background-color: rgb(179, 92, 139);
+}
+
+.service-item-right-top-img {
+    width: 35%;
+    height: 70%;
+    margin: auto 1%;
+}
+
+.service-item-right-top-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.service-item-right-top-box {
+    padding-top: 10%;
+}
+
+.service-item-right-top-ttl {
+    color: #fff;
+    font-size: 1.3vw;
+}
+
+.service-item-right-top-text {
+    margin-top: 6%;
+    font-size: 1vw;
+    color: #fff;
+    line-height: 180%;
+}
+
+.service-box-item-right-bottom {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    background-color: rgb(176, 134, 156);
+}
+
+.service-item-right-bottom-img {
+    width: 35%;
+    height: 70%;
+    margin: auto 1%;
+}
+
+.service-item-right-bottom-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.service-item-right-bottom-box {
+    padding-top: 10%;
+}
+
+.service-item-right-bottom-ttl {
+    color: #fff;
+    font-size: 1.3vw;
+}
+
+.service-item-right-bottom-text {
+    margin-top: 6%;
+    font-size: 1vw;
+    color: #fff;
+    line-height: 180%;
+}
+
+.blog_inner {
+    width: 66%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.blog-minittl {
+    font-size: 1vw;
+    font-family: "Nanum Pen Script", cursive;
+    color: #b31667;
+    padding-top: 8%;
+}
+
+.blog-ttl {
+    font-size: 1.59vw;
+    margin-top: 1%;
+    color: rgb(112, 112, 112);
+}
+
+.blog-box {
+    width: 100%;
+    height: 50%;
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-box-item {
+    width: 28%;
+    height: 100%;
+    border-radius: 0.5vw 0.5vw 0 0;
+    overflow: hidden; /*設定*/
+    background-color: #fff;
+    position: relative;
+}
+
+.blog-item-top {
+    position: absolute;
+    z-index: 5;
+    padding: 3%;
+    font-size: 1vw;
+    background-color: #b31667;
+    color: #fff;
+}
+
+.blog-item-img {
+    position: absolute;
+    z-index: 0;width: 100%;
+    height: 50%;
+}
+
+.blog-item-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.blog-item-ttl {
+    position: absolute;
+    z-index: 0;
+    top: 50%;
+    left: 0;
+    padding: 7%;
+    font-size: 1vw;
+    line-height: 180%;
+}
+
+.blog-tag-box {
+    position: absolute;
+    z-index: 0;
+    left: 0;
+    top: 85%;
+    display: flex;
+    font-size: 1vw;
+}
+.blog-item-date,
+.blog-item-tag {
+    margin:0 10%;
+}
+
+.blog-btn {
+    width: 22%;
+    padding: 3% 0;
+    color: #b31667;
+    border-radius: 3vw;
+    border:1px solid #b31667;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 5px 0 rgba(255, 0, 0, 0.2);
+    margin: 5% auto 0;
+    display: block;
+    font-size: 1.3vw;
+}
+
+.company_inner {
+    width: 66%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.company-minittl {
+    font-family: "Nanum Pen Script", cursive;
+    font-size: 1vw;
+    color: #b31667;
+    padding-top: 9%;
+}
+
+.company-ttl {
+    font-size: 1.59vw;
+    margin-top: 1%;
+    color: rgb(112, 112, 112);
+}
+
+.company-list {
+    margin-top: 3%;
+    width: 100%;
+    height: 60%;
+    background-color: #fff;
+}
+
+.company-item th {
+    background-color: rgb(245, 245, 245);
+}
+
+.company-list,
+.company-item th,
+.company-item td {
+    text-align: left;
+    padding-left: 1vw;
+    font-size: 1vw;
+    color: rgb(107, 107, 107);
+    border: 0.1vw solid gray;
+    border-collapse: collapse;
+    vertical-align: middle;
+}
+
+.article_inner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.article-img-left {
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+
+.article-img-left img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+}
+
+.article-img-right {
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+
+.article-img-right img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+}
+
+.article-ttl-recruitment {
+    position: absolute;
+    z-index: 5;
+    top: 45%;
+    left: 42%;
+    text-align: center;
+    color: #fff;
+    font-size: 2vw;
+    text-decoration: none;
+}
+
+.article-ttl-interview {
+    position: absolute;
+    z-index: 5;
+    top: 45%;
+    left: 34%;
+    text-align: center;
+    color: #fff;
+    font-size: 2vw;
+    text-decoration: none;
+}
+
+.contact_inner {
+    width: 100%;
+    height: 100%;
+}
+
+.contact-box {
+    width: 28%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.contact-top {
+    font-size: 1.3vw;
+    text-align: center;
+    padding-top: 15%;
+    display: inline-block;
+    position: relative;
+}
+
+.contact-top::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 2px;
+    height: 50%;
+    margin: 10% auto;
+    background-color: #b31667;
+}
+
+.contact-btn {
+    width: 70%;
+    padding: 8% 0;
+    color: #fff;
+    border-radius: 3vw;
+    background:linear-gradient(rgb(252, 30, 141), rgb(217, 26, 122), rgb(183, 21, 104));
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 5px 0 rgba(255, 0, 0, 0.2);
+    margin: 25% auto 0;
+    display: block;
+    position: relative;
+    font-size: 1.5vw;
+}
+
+.contact-btn::before {
+    content: "";
+    position: absolute;
+    top: 47%;
+    left: 10%;
+    background: url(/img/img/mailicon.svg) no-repeat;
+    background-size: cover;
+    width: 2vw;
+    height: 2vw; /**/
+    transform: translate(0, -50%);
+}
+
+.copyright {
+    font-size: 1vw;
+    display: block;
+    margin: 1%;
+    text-align: center;
+}
