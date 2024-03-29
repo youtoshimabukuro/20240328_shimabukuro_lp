@@ -38,6 +38,7 @@ html,body {
 .about {
     width: 100%;
     height: 14.7%;
+    background-color: rgb(242, 242, 242);
 }
 
 .service {
@@ -48,6 +49,7 @@ html,body {
 .blog {
     width: 100%;
     height: 20.3%;
+    background-color: rgb(242, 242, 242);
 }
 
 .company {
@@ -179,15 +181,22 @@ html,body {
 
 .news-list {
     list-style: none;
+    margin-top: 2%;
+    width: 100%;
+    height: 63%;
+    border-top: 0.1vw solid rgb(212,212,212);
+    border-bottom: 0.1vw solid rgb(212, 212, 212);
 }
 
 .news-item {
-    font-size: 1.2vw;
-    line-height: 200%;
-    margin: 5%;
+    line-height: 150%;
+    margin: 3%;
+    padding: 1%;
+    border-bottom: 0.1vw solid rgb(212, 212, 212);
 }
 
 .news-item a{
+    font-size: 1.1vw;
     text-decoration: none;
     color: rgb(112, 112, 112);
 }
@@ -470,6 +479,7 @@ html,body {
     color: #b31667;
     border-radius: 3vw;
     border:1px solid #b31667;
+    background-color: #fff;
     text-align: center;
     text-decoration: none;
     box-shadow: 0 5px 0 rgba(255, 0, 0, 0.2);
@@ -586,7 +596,7 @@ html,body {
 }
 
 .contact-top {
-    font-size: 1.3vw;
+    font-size: 1.32vw;
     text-align: center;
     padding-top: 15%;
     display: inline-block;
@@ -604,31 +614,32 @@ html,body {
     background-color: #b31667;
 }
 
-.contact-btn {
+.contact-btn-box {
     width: 70%;
-    padding: 8% 0;
-    color: #fff;
+    height: 20%;
     border-radius: 3vw;
-    background:linear-gradient(rgb(252, 30, 141), rgb(217, 26, 122), rgb(183, 21, 104));
-    text-align: center;
-    text-decoration: none;
-    box-shadow: 0 5px 0 rgba(255, 0, 0, 0.2);
-    margin: 25% auto 0;
-    display: block;
-    position: relative;
-    font-size: 1.5vw;
+    margin: 20% auto;
+    background: linear-gradient(rgb(252, 30, 141), rgb(217, 26, 122), rgb(183, 21, 104));
+    display: flex;
+    align-items: center;
 }
 
-.contact-btn::before {
-    content: "";
-    position: absolute;
-    top: 47%;
-    left: 10%;
-    background: url(/img/img/mailicon.svg) no-repeat;
-    background-size: cover;
-    width: 2vw;
-    height: 2vw; /**/
-    transform: translate(0, -50%);
+.contact-btn-img {
+    width: 10%;
+    height: 35%;
+    margin-left: 10%;
+}
+
+.contact-btn-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.contact-btn-box a {
+    color: #fff;
+    font-size: 1.2vw;
+    margin:10%;
+    text-decoration: none;
 }
 
 .copyright {
