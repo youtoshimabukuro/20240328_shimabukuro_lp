@@ -189,7 +189,8 @@ html,body {
 }
 
 .news-item {
-    line-height: 150%;
+    line-height: 1.4vw;
+    height: 7%; /**/
     margin: 3%;
     padding: 1%;
     border-bottom: 0.1vw solid rgb(212, 212, 212);
